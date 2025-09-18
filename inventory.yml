@@ -1,0 +1,6 @@
+peers:
+  AMAZON:
+    - host: prr04sttlwa
+      device_type: cisco_xr
+    - host: prr01snjsca
+      device_type: cisco_xr
