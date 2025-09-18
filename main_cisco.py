@@ -6,7 +6,7 @@ import re
 from getpass import getpass
 from datetime import datetime
 from netmiko import ConnectHandler
-from netmiko.exception import NetMikoAuthenticationException, NetMikoTimeoutException
+from netmiko.ssh_exception import NetMikoAuthenticationException, NetMikoTimeoutException
 
 # ----- Simple thresholds -----
 GREEN_MAX = 0.60   # <60% = green
@@ -269,4 +269,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
